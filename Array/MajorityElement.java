@@ -17,8 +17,35 @@ public class MajorityElement {
             }
         }
     }
+
+
+    public static void mooreVotingAlgorithm(int[] arr) {
+        int maj=arr[0], count=1;
+        for(int x : arr) {
+            if(x==maj) {
+                count++;
+            } else {
+                count--;
+            }
+            if(count<0) {
+                maj = x;
+                count = 1;
+            }
+        }
+        count = 0;
+        for (int x : arr) {
+            if(maj==x) count++;
+        }
+        if(count>arr.length/2)
+            System.out.println("Majority Element found: " + maj);
+        else
+            System.out.println("No majority element exist");
+    }
+
+
+
     public static void main(String[] args) {
-        int[] arr = {8,5,5,8,2,5,5,5};
-        hashMapApproach(arr);
+        int[] arr = {5,2,5,8,5,2,5,5};
+        mooreVotingAlgorithm(arr);
     }
 }
