@@ -1,8 +1,4 @@
-**Module 1**
-
-- Time Complexity
-- Basic Mathematics
-- Bit Manipulation
+**Module 1**: Time Complexity | Basic Mathematics | Bit Manipulation
 
 - Problems
     - GCD: https://leetcode.com/problems/find-greatest-common-divisor-of-array/
@@ -15,9 +11,7 @@
 
 -----------------------------------------------------------------------------------------
 
-**Module 2**
-
-- Arrays
+**Module 2**: Arrays | Recursion | Backtracking
 
 - Problems
      - Missing Number: https://leetcode.com/problems/missing-number/description/
@@ -29,3 +23,16 @@
      - Segregate 0's and 1's: https://www.geeksforgeeks.org/problems/segregate-0s-and-1s5106/1
      - Maximum Index: https://www.geeksforgeeks.org/problems/maximum-index3307/1
      - Sum Closes to Zero: https://www.geeksforgeeks.org/problems/two-numbers-with-sum-closest-to-zero1737/1
+     - Two Repeated Elements: https://www.geeksforgeeks.org/problems/two-repeated-elements-1587115621/1
+     - Triplet Sum: https://www.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1
+     - Bitonic Point: https://www.geeksforgeeks.org/problems/maximum-value-in-a-bitonic-array3001/1
+     - Rotate Array: https://leetcode.com/problems/rotate-array/description/
+     - Search in Rotsted Array: https://leetcode.com/problems/search-in-rotated-sorted-array/description/
+     - Subarray Sum Equals K: https://leetcode.com/problems/subarray-sum-equals-k/description/
+     - Trapping Rainwater: https://leetcode.com/problems/trapping-rain-water/
+ 
+- Bonus Practice
+    - Find Peak: https://leetcode.com/problems/find-peak-element/description/
+
+
+
