@@ -31,6 +31,15 @@
      - Subarray Sum Equals K: https://leetcode.com/problems/subarray-sum-equals-k/description/
      - Trapping Rainwater: https://leetcode.com/problems/trapping-rain-water/
  
+     - Fibonacci Series: https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1
+     - Factorial: https://www.geeksforgeeks.org/problems/factorial5739/1
+     - Tower of Hanoi: https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1
+     - Generate all Paranthesis: https://leetcode.com/problems/generate-parentheses/
+     - Knight tour: https://leetcode.com/problems/check-knight-tour-configuration/description/
+     - Rat in A maze: https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
+     - N Queen Puzzle: https://leetcode.com/problems/n-queens
+     - Sudoku Solver: https://leetcode.com/problems/sudoku-solver/description/
+ 
 - Bonus Practice
     - Find Peak: https://leetcode.com/problems/find-peak-element/description/
 
