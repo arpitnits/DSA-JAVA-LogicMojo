@@ -38,6 +38,7 @@
      - Knight tour: https://leetcode.com/problems/check-knight-tour-configuration/description/
      - Rat in A maze: https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
      - N Queen Puzzle: https://leetcode.com/problems/n-queens
+     - Subset Sum: https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1
      - Sudoku Solver: https://leetcode.com/problems/sudoku-solver/description/
  
 - Bonus Practice
