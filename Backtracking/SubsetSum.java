@@ -13,7 +13,7 @@ public class SubsetSum {
             return;
         }
 
-        if(index==nums.length) {
+        if(target<0 || index==nums.length) {
             return;
         }
 
@@ -21,11 +21,10 @@ public class SubsetSum {
         generateAllSubsets(nums, subSet, index+1, target);
 
         //take
-        if(nums[index]<=target) {
-            subSet.add(nums[index]);
-            generateAllSubsets(nums, subSet, index+1, target-nums[index]);
-            subSet.remove(subSet.size()-1);
-        }
+        subSet.add(nums[index]);
+        generateAllSubsets(nums, subSet, index+1, target-nums[index]);
+        subSet.remove(subSet.size()-1);
+
     }
 
 
