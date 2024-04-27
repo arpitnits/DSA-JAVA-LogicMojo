@@ -35,7 +35,7 @@
      - Factorial: https://www.geeksforgeeks.org/problems/factorial5739/1
      - Tower of Hanoi: https://www.geeksforgeeks.org/problems/tower-of-hanoi-1587115621/1
      - Generate all Paranthesis: https://leetcode.com/problems/generate-parentheses/
-     - Knight tour: https://leetcode.com/problems/check-knight-tour-configuration/description/
+     - Knight tour: https://leetcode.com/problems/check-knight-tour-configuration
      - Rat in A maze: https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
      - N Queen Puzzle: https://leetcode.com/problems/n-queens
      - Subset Sum: https://www.geeksforgeeks.org/problems/perfect-sum-problem5633/1
@@ -54,5 +54,17 @@
      - Count Nodes: https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/1
      - Reverse a linked list: https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1
      - Deletion a node: https://www.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1
-     - 
+     - Kth Node: https://www.geeksforgeeks.org/problems/node-at-a-given-index-in-linked-list/1
+     - Kth Node from End: https://leetcode.com/problems/remove-nth-node-from-end-of-list
+     - Middle in a LinkedList: https://leetcode.com/problems/middle-of-the-linked-list
+     - Cycle in LinkedList: https://leetcode.com/problems/linked-list-cycle
+     - Check if LL is Palindromic: https://leetcode.com/problems/palindrome-linked-list
+     - Reverse a DLL: https://www.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1
+     - Find first Node of circular LL: https://leetcode.com/problems/linked-list-cycle-ii
+     - Intersect Point of Two LL: https://leetcode.com/problems/intersection-of-two-linked-lists
+     - Alternate Split of LL: https://www.geeksforgeeks.org/problems/split-singly-linked-list-alternatingly/1
+     - Merge two sorted LL: https://leetcode.com/problems/merge-two-sorted-lists/description/
+     - Greatest Value node on Right Side: https://leetcode.com/problems/next-greater-node-in-linked-list
+     - Add two Numbers: https://leetcode.com/problems/add-two-numbers
+     - Merge Sort on LL: https://leetcode.com/problems/sort-list
 
