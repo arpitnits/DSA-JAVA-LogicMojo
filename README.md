@@ -46,3 +46,13 @@
 
 
 
+-----------------------------------------------------------------------------------------
+
+**Module 3**: LinkedList | Stack | Queue
+
+- Problems
+     - Count Nodes: https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/1
+     - Reverse a linked list: https://www.geeksforgeeks.org/problems/reverse-a-linked-list/1
+     - Deletion a node: https://www.geeksforgeeks.org/problems/delete-a-node-in-single-linked-list/1
+     - 
+
