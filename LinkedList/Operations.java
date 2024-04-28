@@ -2,16 +2,9 @@ package LinkedList;
 
 public class Operations {
 
-    static class Node {
-        int data;
-        Node next = null;
+    
 
-        Node(int val) {
-            this.data = val;
-        }
-    }
-
-    public static void iterateTraversal(Node head) {
+    public static void iterateTraversal(MainLL.Node head) {
 
         while (head!=null) {
             System.out.print(head.data+ "->");
@@ -19,7 +12,7 @@ public class Operations {
         }
     }
 
-    public static void recursiveTraversal(Node head) {
+    public static void recursiveTraversal(MainLL.Node head) {
         if(head==null)
             return;
 
@@ -27,11 +20,11 @@ public class Operations {
         recursiveTraversal(head.next);
     }
 
-    public static void insertAtBeginning(Node head, int Val) {
+    public static void insertAtBeginning(MainLL.Node head, int Val) {
         System.out.println("Before insertion: ");
         iterateTraversal(head);
 
-        Node newNode = new Node(Val);
+        MainLL.Node newNode = new MainLL.Node(Val);
 
         newNode.next = head;
         head = newNode;
@@ -40,21 +33,21 @@ public class Operations {
         iterateTraversal(head);
     }
 
-    public static void insertAtEnd(Node head, int Val) {
+    public static void insertAtEnd(MainLL.Node head, int Val) {
         System.out.println("Before insertion: ");
         iterateTraversal(head);
 
-        Node tempNode = head;
+        MainLL.Node tempNode = head;
         while(tempNode.next!=null) {
             tempNode = tempNode.next;
         }
-        tempNode.next = new Node(Val);
+        tempNode.next = new MainLL.Node(Val);
 
         System.out.println("\nAfter insertion: ");
         iterateTraversal(head);
     }
 
-    public static Node search(Node head, int target) {
+    public static MainLL.Node search(MainLL.Node head, int target) {
         while(head!=null) {
             if(head.data == target) {
                 System.out.println("Found Value");
@@ -65,7 +58,7 @@ public class Operations {
         return null;
     }
 
-    public static int findSize(Node head, int target) {
+    public static int findSize(MainLL.Node head) {
         int count=0;
         while(head!=null) {
             count++;
@@ -74,14 +67,14 @@ public class Operations {
         return count;
     }
 
-    public static Node deleteKey(Node head, int key) {
+    public static MainLL.Node deleteKey(MainLL.Node head, int key) {
 
         if(head!=null && head.data==key) {
             head = head.next;
             return head;
         }
-        Node curr = head;
-        Node prev = null;
+        MainLL.Node curr = head;
+        MainLL.Node prev = null;
 
         while (curr!=null && curr.data!=key) {
             prev = curr;
@@ -96,20 +89,20 @@ public class Operations {
         return head;
     }
 
-    public static Node reverseRecursive(Node curr, Node prev) {
+    public static MainLL.Node reverseRecursive(MainLL.Node curr, MainLL.Node prev) {
         if(curr==null) {
             return prev;
         }
 
-        Node nxt = curr.next;
+        MainLL.Node nxt = curr.next;
         curr.next = prev;
 
         return reverseRecursive(nxt, curr);
     }
 
-    public static Node reverseIterative(Node head) {
-        Node curr = head;
-        Node prev = null, nxt = null;
+    public static MainLL.Node reverseIterative(MainLL.Node head) {
+        MainLL.Node curr = head;
+        MainLL.Node prev = null, nxt = null;
 
         while(curr!=null) {
             nxt = curr.next;
@@ -124,18 +117,7 @@ public class Operations {
 
     public static void main(String[] args) {
         // 2->4->8
-        Node node1 = new Node(2);
-        Node head = node1;
-
-        Node node2 = new Node(4);
-        node1.next = node2;
-
-        Node node3 = new Node(8);
-        node2.next = node3;
-
-
-        head = reverseIterative(head);
-        iterateTraversal(head);
+        
 
     }
 }
