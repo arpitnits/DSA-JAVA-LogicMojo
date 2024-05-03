@@ -67,4 +67,10 @@
      - Greatest Value node on Right Side: https://leetcode.com/problems/next-greater-node-in-linked-list
      - Add two Numbers: https://leetcode.com/problems/add-two-numbers
      - Merge Sort on LL: https://leetcode.com/problems/sort-list
+     - Rotate List ClockWise: https://leetcode.com/problems/rotate-list/
+     - Rotate CounterClockwise: https://www.geeksforgeeks.org/problems/rotate-a-linked-list/1
+     - Reverse in Group of K Nodes: https://leetcode.com/problems/reverse-nodes-in-k-group/
+     - Flatten a LL: https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1
+     - Copy with Random Pointer: https://leetcode.com/problems/copy-list-with-random-pointer
+     - Merge K Sorted LL: https://leetcode.com/problems/merge-k-sorted-lists
 
