@@ -74,3 +74,10 @@
      - Copy with Random Pointer: https://leetcode.com/problems/copy-list-with-random-pointer
      - Merge K Sorted LL: https://leetcode.com/problems/merge-k-sorted-lists
 
+
+     - Balanced Paranthesis: https://leetcode.com/problems/valid-parentheses
+     - Min Stack: https://leetcode.com/problems/min-stack/
+     - Infix to Postfix: https://www.geeksforgeeks.org/problems/infix-to-postfix-1587115620/1
+     - Stock Problem:
+     - Celebratity Problem: https://www.geeksforgeeks.org/problems/the-celebrity-problem/1
+
