@@ -1,5 +1,8 @@
 package Stack;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
+
 public class Implementation {
 
     static class ArrayImpl {
@@ -47,6 +50,24 @@ public class Implementation {
 
         int size() {
             return 0;
+        }
+    }
+
+    static class QueueImpl {
+
+        Queue<Integer> q = new ArrayDeque<>();
+
+        public void push(int val) {
+            q.add(val);
+            int size = q.size();
+
+            for(int i=0;i<size-1;i++) {
+                q.add(q.poll());
+            }
+        }
+
+        public int pop() {
+            return q.poll();
         }
     }
 }
