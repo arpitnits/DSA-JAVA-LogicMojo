@@ -89,6 +89,7 @@
 **Module 4**: Hashing | Strings
 
 - Array Subset of Another Array: https://www.geeksforgeeks.org/problems/array-subset-of-another-array2317/1
+- Pattern Search: https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string (Sliding Window | Rabin Karp | KMP)
 - Implement Atoi: https://leetcode.com/problems/string-to-integer-atoi
 - Anagrams: https://www.geeksforgeeks.org/problems/anagram-1587115620/1
 - Minimum Swap to Make Strings Balanced: https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced
