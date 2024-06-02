@@ -45,4 +45,19 @@ public class HeightBT {
         if(root==null)  return 0;
         return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
+
+    public int isBalanced(TreeNode root) {
+        if(root==null)  return 0;
+
+        int left = isBalanced(root.left);
+        int right = isBalanced(root.right);
+
+        //left and right are not height balanced
+        if(left==-1 || right ==-1)  return -1;
+
+        //current node is height balanced or not
+        if(Math.abs(left-right)>1)  return -1;
+
+        return Math.max(left, right) + 1;
+    }
 }
